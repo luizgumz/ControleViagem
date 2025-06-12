@@ -1,24 +1,39 @@
 using ControleViagem.Data;
+using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar o banco de dados SQLite usando a string de conexão do appsettings.json
-builder.Services.AddDbContext<ViagemContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("ViagemContext")));
-
-// Adicionar o serviço MVC e controladores
+// Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddDbContext<ViagemContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("ViagemContext"))
+);
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "ControleViagem API", Version = "v1" });
+});
 
 var app = builder.Build();
 
-// Configurar o pipeline de requisições
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 //app.UseHttpsRedirection();
 
-app.MapGet("/", () => "Página não encontrada. Erro 404! :{");
+// Enable serving static files
+app.UseStaticFiles();
 
-app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
+
+// Fallback to index.html for SPA
+app.MapFallbackToFile("index.html");
 
 app.Run();

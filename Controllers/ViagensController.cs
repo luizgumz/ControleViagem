@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ControleViagem.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/viagens")]
     [ApiController]
     public class ViagensController : ControllerBase
     {

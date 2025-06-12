@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/form.html",
+      "PackagePath": "staticwebassets/form.html"
+    },
+    {
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/form.js",
+      "PackagePath": "staticwebassets/js/form.js"
+    },
+    {
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/viagensService.js",
+      "PackagePath": "staticwebassets/js/viagensService.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ControleViagem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ControleViagem.props",
+      "PackagePath": "build\\ControleViagem.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ControleViagem.props",
+      "PackagePath": "buildMultiTargeting\\ControleViagem.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ControleViagem.props",
+      "PackagePath": "buildTransitive\\ControleViagem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ControleViagem/ControleViagem.csproj": {}
+    "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/ControleViagem.csproj": {}
   },
   "projects": {
-    "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ControleViagem/ControleViagem.csproj": {
+    "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/ControleViagem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ControleViagem/ControleViagem.csproj",
+        "projectUniqueName": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/ControleViagem.csproj",
         "projectName": "ControleViagem",
-        "projectPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ControleViagem/ControleViagem.csproj",
+        "projectPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/ControleViagem.csproj",
         "packagesPath": "/home/luizsg/.nuget/packages/",
-        "outputPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ControleViagem/obj/",
+        "outputPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/luizsg/.nuget/NuGet/NuGet.Config"
@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
