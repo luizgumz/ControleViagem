@@ -17,16 +17,16 @@
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/form.js",
-      "PackagePath": "staticwebassets/js/form.js"
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/form.mjs",
+      "PackagePath": "staticwebassets/js/form.mjs"
     },
     {
-      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/main.js",
-      "PackagePath": "staticwebassets/js/main.js"
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/main.mjs",
+      "PackagePath": "staticwebassets/js/main.mjs"
     },
     {
-      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/viagensService.js",
-      "PackagePath": "staticwebassets/js/viagensService.js"
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/viagensService.mjs",
+      "PackagePath": "staticwebassets/js/viagensService.mjs"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ControleViagem.Microsoft.AspNetCore.StaticWebAssets.props",

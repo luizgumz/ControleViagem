@@ -1,5 +1,5 @@
-/*
-import { createViagem, updateViagem, getViagemById, getViagens } from './viagensService.js';
+
+import { createViagem, updateViagem, getViagemById, getViagens, deleteViagem } from './viagensService.mjs';
 
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
@@ -33,34 +33,3 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.href = 'index.html';
   });
 });
-*/
-
-// js/form.js
-
-window.addEventListener('load', async () => {
-  try {
-    const viagens = await getViagens();
-    carregarTabela(viagens);
-  } catch (erro) {
-    console.error('Erro ao carregar viagens:', erro);
-  }
-});
-
-function carregarTabela(viagens) {
-  const tabela = document.getElementById('tabela-viagens');
-  tabela.innerHTML = ''; // limpa antes de preencher
-
-  viagens.forEach(viagem => {
-    const linha = document.createElement('tr');
-
-    linha.innerHTML = `
-      <td>${viagem.id}</td>
-      <td>${viagem.destino}</td>
-      <td>${viagem.dataIda}</td>
-      <td>${viagem.dataVolta}</td>
-      <td>${viagem.preco}</td>
-    `;
-
-    tabela.appendChild(linha);
-  });
-}

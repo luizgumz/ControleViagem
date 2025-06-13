@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oIiVtq7tKvAVTNVyHM+QLtQW3qiaPTXKugjlSPavSjI=",
+  "Hash": "+6/arF2xGBBZhNnMup3YU6bhUpNH+2AsnAr/fqLmRog=",
   "Source": "ControleViagem",
   "BasePath": "_content/ControleViagem",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/form.js",
+      "Identity": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/form.mjs",
       "SourceId": "ControleViagem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/",
       "BasePath": "_content/ControleViagem",
-      "RelativePath": "js/form.js",
+      "RelativePath": "js/form.mjs",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/form.js"
+      "OriginalItemSpec": "wwwroot/js/form.mjs"
     },
     {
-      "Identity": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/main.js",
+      "Identity": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/main.mjs",
       "SourceId": "ControleViagem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/",
       "BasePath": "_content/ControleViagem",
-      "RelativePath": "js/main.js",
+      "RelativePath": "js/main.mjs",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/main.js"
+      "OriginalItemSpec": "wwwroot/js/main.mjs"
     },
     {
-      "Identity": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/viagensService.js",
+      "Identity": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/js/viagensService.mjs",
       "SourceId": "ControleViagem",
       "SourceType": "Discovered",
       "ContentRoot": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/",
       "BasePath": "_content/ControleViagem",
-      "RelativePath": "js/viagensService.js",
+      "RelativePath": "js/viagensService.mjs",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/viagensService.js"
+      "OriginalItemSpec": "wwwroot/js/viagensService.mjs"
     }
   ]
 }

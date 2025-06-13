@@ -1,7 +1,6 @@
 const API_URL = 'http://localhost:5000';
 
 async function getViagens() {
-  /*
   const res = await fetch(API_URL);
   if (!res.ok) {
     const text = await res.text();
@@ -9,14 +8,6 @@ async function getViagens() {
     throw new Error("Erro ao buscar viagens");
   }
   return res.json();
-  */
-
-  const response = await fetch('http://localhost:5253/api/viagens');
-  if (!response.ok) {
-    throw new Error('Erro ao buscar viagens');
-  }
-  const data = await response.json();
-  return data;
 }
 
 async function getViagemById(id) {
@@ -42,4 +33,12 @@ async function updateViagem(id, data) {
 
 async function deleteViagem(id) {
   await fetch(`${API_URL}/${id}`, { method: 'DELETE' });
+}
+
+export{
+  getViagemById,
+  getViagens,
+  createViagem,
+  updateViagem,
+  deleteViagem,
 }
