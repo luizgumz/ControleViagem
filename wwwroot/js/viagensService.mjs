@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000';
+const API_URL = 'http://localhost:5000/api/viagens';
 
 async function getViagens() {
   const res = await fetch(API_URL);

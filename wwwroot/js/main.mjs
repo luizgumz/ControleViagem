@@ -1,3 +1,4 @@
+import { getViagens, deleteViagem } from './viagensService.mjs';
 document.addEventListener('DOMContentLoaded', () => {
   const tbody = document.querySelector('#tblViagens tbody');
   const btnNovo = document.getElementById('btnNovo');
