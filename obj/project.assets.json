@@ -3605,11 +3605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/ControleViagem.csproj",
+      "projectUniqueName": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ProjetoFinal/ControleViagem.csproj",
       "projectName": "ControleViagem",
-      "projectPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/ControleViagem.csproj",
+      "projectPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ProjetoFinal/ControleViagem.csproj",
       "packagesPath": "/home/luizsg/.nuget/packages/",
-      "outputPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/obj/",
+      "outputPath": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/ProjetoFinal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/luizsg/.nuget/NuGet/NuGet.Config"
