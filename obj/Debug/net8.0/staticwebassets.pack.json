@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/assets/favico.png",
+      "PackagePath": "staticwebassets/assets/favico.png"
+    },
+    {
       "Id": "/home/luizsg/Documentos/Universidade/Topicos_Especiais_de_Sistema/Prova/wwwroot/css/style.css",
       "PackagePath": "staticwebassets/css/style.css"
     },
